@@ -1,10 +1,18 @@
+const rawWa = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '6281383793037';
+
+// Format 6281383793037 -> 0813-8379-3037 for display
+function formatWaDisplay(num: string): string {
+  const local = num.startsWith('62') ? '0' + num.slice(2) : num;
+  return local.replace(/(\d{4})(\d{4})(\d+)/, '$1-$2-$3');
+}
+
 export const BUSINESS_INFO = {
   name: 'Batapav Coffee & Eatery',
   address: 'Jl. Citayam, RT.7/RW.1, Rw. Bar., Kebayoran Baru, Jakarta Selatan',
   hours: 'Setiap hari, 10.00–23.00',
   contact: {
-    whatsapp: '08113632229', // normalized for links
-    display: '0811-3632-229',
+    whatsapp: rawWa, // normalized for links
+    display: formatWaDisplay(rawWa),
   },
   rating: {
     score: 4.9,
