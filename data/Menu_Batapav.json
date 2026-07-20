@@ -1,0 +1,31 @@
+[
+  {
+    "nama": "Batapav Aren",
+    "kategori": "COFFEE-MILK",
+    "harga": 26000,
+    "badge": "Best Seller",
+    "deskripsi": "Kopi susu gula aren khas Batapav."
+  },
+  {
+    "nama": "Cafe Latte",
+    "kategori": "THE COFFEE",
+    "harga": 28000
+  },
+  {
+    "nama": "Lychee Tea",
+    "kategori": "T",
+    "harga": 25000
+  },
+  {
+    "nama": "Nasi Goreng Batapav",
+    "kategori": "FOODFOOD",
+    "harga": 35000,
+    "badge": "Chef's Rec",
+    "deskripsi": "Nasi goreng spesial dengan bumbu rempah pilihan."
+  },
+  {
+    "nama": "French Fries",
+    "kategori": "SNACKS",
+    "harga": 22000
+  }
+]
