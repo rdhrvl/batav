@@ -10,6 +10,8 @@ export const metadata: Metadata = {
   description: 'Explore the full menu of Batapav Coffee & Eatery. Discover our specialty coffee, mocktails, main courses, and snacks.',
 };
 
+export const revalidate = 60; // Revalidate menu page every 60s
+
 export default async function MenuPage() {
   const items = await getMenuItems();
 

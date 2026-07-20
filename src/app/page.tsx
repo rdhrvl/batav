@@ -9,6 +9,8 @@ import Footer from '@/components/sections/Footer';
 import Head from 'next/head';
 import { BUSINESS_INFO } from '@/lib/business-info';
 
+export const revalidate = 60; // Revalidate page data every 60s
+
 export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
