@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { BUSINESS_INFO } from '@/lib/business-info';
-import { MapPin, Phone, Clock, Copy, Check } from 'lucide-react';
+import { MapPin, Phone, Clock, Copy, Check, ExternalLink } from 'lucide-react';
 
 export default function Footer() {
   const [copied, setCopied] = useState(false);
@@ -35,13 +35,23 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-white/80 leading-relaxed mb-2">{BUSINESS_INFO.address}</p>
-                <button 
-                  onClick={handleCopy}
-                  className="flex items-center gap-2 text-sm text-accent hover:text-white transition-colors"
-                >
-                  {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
-                  {copied ? 'Tersalin!' : 'Salin Alamat'}
-                </button>
+                <div className="flex items-center gap-4 text-sm">
+                  <button 
+                    onClick={handleCopy}
+                    className="flex items-center gap-2 text-accent hover:text-white transition-colors"
+                  >
+                    {copied ? <Check className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
+                    {copied ? 'Tersalin!' : 'Salin Alamat'}
+                  </button>
+                  <a
+                    href={BUSINESS_INFO.maps.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-accent hover:text-white transition-colors"
+                  >
+                    Buka di Maps <ExternalLink className="w-3.5 h-3.5" />
+                  </a>
+                </div>
               </div>
             </li>
             <li className="flex items-center gap-4 group">
@@ -61,11 +71,20 @@ export default function Footer() {
 
         {/* Google Maps Embed (Col 9-12) */}
         <div className="md:col-span-4">
-          <h4 className="font-bold text-lg mb-6 tracking-wide">Lokasi Kami</h4>
+          <div className="flex justify-between items-center mb-6">
+            <h4 className="font-bold text-lg tracking-wide">Lokasi Kami</h4>
+            <a 
+              href={BUSINESS_INFO.maps.url} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-xs text-accent hover:underline flex items-center gap-1"
+            >
+              Buka Google Maps <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
           <div className="w-full h-48 sm:h-56 bg-secondary/10 rounded-2xl overflow-hidden border border-white/10 relative shadow-inner">
-             {/* Using an iframe for Google Maps based on standard embed URL structure (Placeholder location coordinates for Kebayoran Baru) */}
              <iframe 
-               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m3!1d3966.082729112933!2d106.7972!3d-6.2529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTUnMTAuNCJTIDEwNsKwNDcnNDkuOSJF!5e0!3m2!1sen!2sid!4v1620000000000!5m2!1sen!2sid" 
+               src={BUSINESS_INFO.maps.embedUrl} 
                width="100%" 
                height="100%" 
                style={{ border: 0 }} 
