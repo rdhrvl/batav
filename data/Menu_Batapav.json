@@ -1,31 +1,512 @@
 [
   {
-    "nama": "Batapav Aren",
     "kategori": "COFFEE-MILK",
-    "harga": 26000,
-    "badge": "Best Seller",
-    "deskripsi": "Kopi susu gula aren khas Batapav."
+    "nama": "BATA Single",
+    "harga": 26000
   },
   {
-    "nama": "Cafe Latte",
-    "kategori": "THE COFFEE",
+    "kategori": "COFFEE-MILK",
+    "nama": "BATAKO Double",
     "harga": 28000
   },
   {
-    "nama": "Lychee Tea",
-    "kategori": "T",
+    "kategori": "COFFEE-MILK",
+    "nama": "BARA Ice Cream Blend",
+    "harga": 29000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "PUTI/KARA Pillow Foam",
+    "harga": 30000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "HARA Mint",
+    "harga": 28000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "MERA Red Velvet",
+    "harga": 30000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "CELTIC Irish",
+    "harga": 28000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "BARBADOS Rum",
+    "harga": 28000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "SCOTCH Butterscotch",
+    "harga": 28000
+  },
+  {
+    "kategori": "COFFEE-MILK",
+    "nama": "++Blend Ice Cream",
+    "harga": 5000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "LATT\u00c9",
     "harga": 25000
   },
   {
-    "nama": "Nasi Goreng Batapav",
-    "kategori": "FOODFOOD",
-    "harga": 35000,
-    "badge": "Chef's Rec",
-    "deskripsi": "Nasi goreng spesial dengan bumbu rempah pilihan."
+    "kategori": "THE COFFEE",
+    "nama": "CAPPUCINNO",
+    "harga": 25000
   },
   {
-    "nama": "French Fries",
-    "kategori": "SNACKS",
+    "kategori": "THE COFFEE",
+    "nama": "MAGIC",
+    "harga": 27000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "SPANISH LATT\u00c9",
+    "harga": 27000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "MOCCA",
+    "harga": 28000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "AMERICANO",
     "harga": 22000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "V-60",
+    "harga": 25000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "JAPANESE",
+    "harga": 26000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "LUNGO ON THE ROCK",
+    "harga": 20000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "RISRETTO",
+    "harga": 17000
+  },
+  {
+    "kategori": "THE COFFEE",
+    "nama": "AFFOGATO",
+    "harga": 22000
+  },
+  {
+    "kategori": "EXTRAS",
+    "nama": "ESPRESSO",
+    "harga": 5000
+  },
+  {
+    "kategori": "EXTRAS",
+    "nama": "SYRUPS",
+    "harga": 5000
+  },
+  {
+    "kategori": "EXTRAS",
+    "nama": "PILLOW FOAM",
+    "harga": 5000
+  },
+  {
+    "kategori": "EXTRAS",
+    "nama": "OATSIDE-NON DAIRY",
+    "harga": 6000
+  },
+  {
+    "kategori": "EXTRAS",
+    "nama": "MINERAL WATER",
+    "harga": 10000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "NATA Rose Tonic Espresso",
+    "harga": 28000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "RUMOJITO Rum Tonic",
+    "harga": 25000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "SPARKLING BLACK Espresso Lemon Tonic",
+    "harga": 27000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "TWILIGHT Rose Blueberry Tonic",
+    "harga": 27000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "VIRGINIA MOJITO Lime Mint Tonic",
+    "harga": 25000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "ORANGE COFFEE",
+    "harga": 28000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "LYCH TONIC Lychee Mint Tonic",
+    "harga": 26000
+  },
+  {
+    "kategori": "MOCKTAILS",
+    "nama": "LEMON SQUASH Lemon Mint Tonic Fresher",
+    "harga": 25000
+  },
+  {
+    "kategori": "T",
+    "nama": "THAI TEA",
+    "harga": 24000
+  },
+  {
+    "kategori": "T",
+    "nama": "LEMON TEA",
+    "harga": 22000
+  },
+  {
+    "kategori": "T",
+    "nama": "ICE TEA",
+    "harga": 17000
+  },
+  {
+    "kategori": "T",
+    "nama": "LEMONADE",
+    "harga": 18000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "MATCHA",
+    "harga": 29000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "RED VELVET",
+    "harga": 27000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "COOKIES AND CREAM",
+    "harga": 27000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "COCOA CHOCO",
+    "harga": 28000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "SUBA Aren Milk",
+    "harga": 21000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "SODA GEMBIRA",
+    "harga": 25000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "STRAWBERRY SHAKE",
+    "harga": 25000
+  },
+  {
+    "kategori": "MILKY",
+    "nama": "POWPOW ICECREAM",
+    "harga": 20000
+  },
+  {
+    "kategori": "SPECIAL-T",
+    "nama": "LYCHEE TEA",
+    "harga": 24000
+  },
+  {
+    "kategori": "SPECIAL-T",
+    "nama": "BLUEBERRY TEA",
+    "harga": 24000
+  },
+  {
+    "kategori": "SPECIAL-T",
+    "nama": "STRAWBERRY TEA",
+    "harga": 24000
+  },
+  {
+    "kategori": "SPECIAL-T",
+    "nama": "GRANDMA'S BACKYARD",
+    "harga": 26000
+  },
+  {
+    "kategori": "SPECIAL-T",
+    "nama": "ROSSANNA",
+    "harga": 25000
+  },
+  {
+    "kategori": "MENTAI SERIES",
+    "nama": "SALMON KANI MENTAI",
+    "harga": 55000
+  },
+  {
+    "kategori": "MENTAI SERIES",
+    "nama": "BEEF MENTAI",
+    "harga": 50000
+  },
+  {
+    "kategori": "MENTAI SERIES",
+    "nama": "DIMSUM MENTAI (4 pcs)",
+    "harga": 35000
+  },
+  {
+    "kategori": "MENTAI SERIES",
+    "nama": "DIMSUM MENTAI (6 pcs)",
+    "harga": 40000
+  },
+  {
+    "kategori": "TOAST",
+    "nama": "COKLAT-KEJU",
+    "harga": 23000
+  },
+  {
+    "kategori": "TOAST",
+    "nama": "KEJU-SUSU",
+    "harga": 23000
+  },
+  {
+    "kategori": "TOAST",
+    "nama": "EGG",
+    "harga": 25000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "NASI AYAM KALASAN",
+    "harga": 32000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "NASI TAHU TELOR",
+    "harga": 25000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "NASI GORENG",
+    "harga": 27000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "NASI GORENG MENTEGA",
+    "harga": 27000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "MIE OSENG MENTEGA",
+    "harga": 29000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "MIE DOGDOG",
+    "harga": 28000
+  },
+  {
+    "kategori": "FOODFOOD",
+    "nama": "BEEF RICE BOWL",
+    "harga": 40000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "KENTANG GORENG",
+    "harga": 25000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "CIRENG",
+    "harga": 23000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "DIMSUM (4 pcs)",
+    "harga": 30000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "DIMSUM (6 pcs)",
+    "harga": 35000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "NUGGET",
+    "harga": 25000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "MUFFIN",
+    "harga": 10000
+  },
+  {
+    "kategori": "SNACKS",
+    "nama": "PLATTER of the Day",
+    "harga": 35000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "NASI",
+    "harga": 7000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "TELOR Dadar/Ceplok",
+    "harga": 7000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "AYAM KALASAN",
+    "harga": 25000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "TAHU TELOR",
+    "harga": 20000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "BEEF",
+    "harga": 30000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "SAMBAL BATAPAV",
+    "harga": 5000
+  },
+  {
+    "kategori": "EXTRA",
+    "nama": "MENTAI PAV",
+    "harga": 7000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "BATA Single",
+    "harga": 50000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "BATAKO Double",
+    "harga": 54000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "BARA Ice Cream Blend",
+    "harga": 58000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "PUTI/KARA Pillow Foam",
+    "harga": 60000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "HARA Mint",
+    "harga": 54000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "MERA Red Velvet",
+    "harga": 60000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "CELTIC Irish",
+    "harga": 56000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "BARBADOS Rum",
+    "harga": 56000
+  },
+  {
+    "kategori": "COFFEE-MILK (500ML)",
+    "nama": "SCOTCH Butterscotch",
+    "harga": 56000
+  },
+  {
+    "kategori": "MILKY (500ML)",
+    "nama": "MATCHA",
+    "harga": 56000
+  },
+  {
+    "kategori": "MILKY (500ML)",
+    "nama": "RED VELVET",
+    "harga": 54000
+  },
+  {
+    "kategori": "MILKY (500ML)",
+    "nama": "COCOA CHOCO",
+    "harga": 56000
+  },
+  {
+    "kategori": "MILKY (500ML)",
+    "nama": "SUBA Aren Milk",
+    "harga": 45000
+  },
+  {
+    "kategori": "MILKY (500ML)",
+    "nama": "STRAWBERRY SHAKE",
+    "harga": 50000
+  },
+  {
+    "kategori": "OTHERS (500ML)",
+    "nama": "LYCHEE TEA",
+    "harga": 48000
+  },
+  {
+    "kategori": "OTHERS (500ML)",
+    "nama": "BLUEBERRY TEA",
+    "harga": 48000
+  },
+  {
+    "kategori": "OTHERS (500ML)",
+    "nama": "STRAWBERRY TEA",
+    "harga": 48000
+  },
+  {
+    "kategori": "OTHERS (500ML)",
+    "nama": "THAI TEA",
+    "harga": 48000
+  },
+  {
+    "kategori": "OTHERS (500ML)",
+    "nama": "LEMONADE",
+    "harga": 35000
+  },
+  {
+    "kategori": "FOODFOOD (PARTY)",
+    "nama": "SALMON KANI MENTAI",
+    "harga": 190000
+  },
+  {
+    "kategori": "FOODFOOD (PARTY)",
+    "nama": "BEEF MENTAI",
+    "harga": 180000
+  },
+  {
+    "kategori": "FOODFOOD (PARTY)",
+    "nama": "DIMSUM MENTAI (16)",
+    "harga": 90000
+  },
+  {
+    "kategori": "FOODFOOD (PARTY)",
+    "nama": "AYAM KALASAN (5 PCS)",
+    "harga": 100000
   }
 ]

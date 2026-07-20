@@ -24,15 +24,27 @@ async function seed() {
 
   console.log(`Found ${items.length} items to insert.`);
 
-  // Insert items one by one or in bulk
+  // Clean existing rows first to avoid duplicates
+  const { error: deleteError } = await supabase
+    .from('menu_items')
+    .delete()
+    .neq('id', '00000000-0000-0000-0000-000000000000');
+
+  if (deleteError) {
+    console.error('Error clearing menu_items:', deleteError);
+    process.exit(1);
+  }
+
+  // Insert items in bulk
   const { data, error } = await supabase
     .from('menu_items')
-    .insert(items);
+    .insert(items)
+    .select();
 
   if (error) {
     console.error('Error inserting data:', error);
   } else {
-    console.log('Seed completed successfully!');
+    console.log(`Seed completed successfully! Inserted ${data.length} items.`);
   }
 }
 
